@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pubmed_scraper"
+version = "0.1.0"
+description = "CLI tool to fetch PubMed papers with pharma/biotech affiliations"
+authors = ["Your Name <your.email@example.com>"]
+packages = [{ include = "getpapers" }]
+
+[tool.poetry.scripts]
+get-papers-list = "cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31"
+typer = { extras = ["all"], version = "^0.9" }
+rich = "^13.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
