@@ -2,7 +2,7 @@
 name = "pubmed_scraper"
 version = "0.1.0"
 description = "CLI tool to fetch PubMed papers with pharma/biotech affiliations"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Harini <harini@gmail.com>"]
 packages = [{ include = "getpapers" }]
 
 [tool.poetry.scripts]
